@@ -1,6 +1,6 @@
 context:
   name: panel-tiles
-  version: "0.4.0"
+  version: "0.5.1"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/panel_tiles-${{ version }}.tar.gz
-  sha256: 6f110984f7cf30983f7ce4b268b2d5402cb7776ffbf9eb93f0e56f4be57f66f8
+  sha256: 7a94519a0549daebc09b27f15af6aa3b713b37d4e05837c6f3630d4a3dd9a249
 
 build:
   noarch: python
